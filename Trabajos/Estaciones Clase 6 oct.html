@@ -1,0 +1,42 @@
+<script>
+    var preguntar = prompt("Introduzcala estacion");
+    var Estaciones = {
+      "Estaciones": {
+        "Primavera": {
+          "Marzo": "Dia 20 de Marzo y finaliza 21 de junio",
+          "Meses": ["Marzo","Mayo","Junio"]
+        },
+        "Verano": {
+          "Junio": "Dia 21 de junio y finaliza el 22 de septiembre",
+          "Meses": ["Junio","Julio","Agosto"]
+        },
+        "Otoño": {
+          "Septiembre": "Dia 22 de septiembre y finaliza el 21 de diciembre",
+          "Meses": ["Septiembre","Octubre","Noviembre"]
+        },
+        "Invierno": {
+          "Diciembre": "Dia 21 de diciembre y finaliza el 20 de marzo",
+          "Meses": ["Diciembre","Enero","Febrero"]
+        }
+    
+    }
+    };
+    switch (preguntar) {
+      case "Primavera":
+        console.log(enlatados["Meses"]["Marzo"]);
+        break;
+  
+      case "Verano":
+        console.log(enlatados["Meses"]["Junio"]);
+        break;
+  
+      case "Otoño":
+        console.log(enlatados["Meses"]["Septiembre"]);
+        break;
+  
+      case "Invierno":
+        console.log(enlatados["Meses"]["Diciembre"]);;
+        break;
+  
+    }
+  </script>

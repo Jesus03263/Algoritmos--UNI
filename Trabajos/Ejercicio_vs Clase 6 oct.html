@@ -1,0 +1,109 @@
+<script>
+  var preguntar = prompt("Introduzca su producto favorito");
+  var enlatados = {
+    "enlatados": {
+      "costeña": {
+        "chipocle": "chico 380gr",
+        "garbanzos": "mediano 420gr",
+        "ensalada de verduas": "mediano 500gr",
+        "elote dorado": "chico 410gr",
+      },
+      "herdez": {
+        "jalapeños": "grande,750gr",
+        "chicharos": "chico,215gr",
+        "champiñones": "chico,380gr",
+        "flor de calabaza": "chico,200gr",
+      },
+      "del monte": {
+        "zanahorias": "chico,390gr",
+        "piñas en rodajas": "grande,1.120l",
+        "duraznos en rodajas": "grande,1.120l",
+        "elotes": "chico,320gr",
+        "chipocle": "chico,280gr",
+      },
+      "la morena": {
+        "jalapeños": "Chico,240gr",
+        "frijol": "mediana,500gr",
+        "rajas": "chicas,240gr",
+        "chipocle": "chicas,240gr",
+      },
+      "san marcos": {
+        "chipotle": "chico,240gr",
+        "rajas": "chico,220gr",
+        "jalapeños": "Mediana,500gr",
+        "duraznos": "mediana,500gr",
+      },
+    },
+
+      "refresco": {
+        "coca cola": {
+          "fanta": "600Ml,1lt,3Lt",
+          "fresca": "600Ml,1lt,3Lt",
+          "sprite": "600Ml,1lt,3Lt",
+          "sidral mundet": "600Ml,1lt,3Lt",
+          "Fuztea": "600ml,1Lt",
+          "Fresca": "AGOTADO",
+          "Del valle": "600Ml,1lt,2Lt",
+          "Agua Ciel": "600ml,1Lt,2Lt,3Lt",
+          "PowerAde": "600ml,1Lt,946ml",
+          "Santa Clara": "250ml,1Lt",
+        },
+        "pepsi": {
+          "Gatorade": "Limon,Naranja,Uva 1Lt",
+          "Squirt": "600Ml,1lt,3Lt",
+          "7Up": "600Ml,1lt,3Lt agotado",
+          "Pepsi": "600Ml agotado,1lt,3Lt",
+        },
+        "jumex": {
+          "Naranjada": "AGOTADO",
+          "Jumex fresh": "1Lt,2Lt,3Lt",
+          "Ami": "600ml,300ml",
+          "Jumex Original": "600ml,1Lt,3Lt",
+          "Jumex Sport": "600ml",
+        },
+        "dr. Papper": {
+          "Dr. Papper": "600ml,1Lt,3Lt",
+          "Dr Pepper Cherry": "355ml",
+          "Dr Pepper Cherry-vainilla": "Agotado",
+        },
+    },
+  };
+  switch (preguntar) {
+    case "coca cola":
+      console.log(enlatados["refresco"]["coca cola"]);
+      break;
+
+    case "pepsi":
+      console.log(enlatados["refresco"]["pepsi"]);
+      break;
+
+    case "jumex":
+      console.log(enlatados["refresco"]["jumex"]);
+      break;
+
+    case "dr Papper":
+      console.log(enlatados["refresco"]["dr Papper"]);
+      break;
+
+    case "costeña":
+      console.log(enalatados["enlatados"]["costeña"]);
+      break;
+
+    case "herdez":
+      console.log(enlatados["enlatados"]["herdez"]);
+      break;
+
+    case "del monte":
+      console.log(enlatados["enlatados"]["del monte"]);
+      break;
+
+    case "la morena":
+      console.log(enlatados["enlatados"]["la morena"]);
+      break;
+    case "san marcos":
+      console.log(enlatados["enlatados"]["san marcos"]);
+    default:
+      console.log("no se encontro");
+      break;
+  }
+</script>
