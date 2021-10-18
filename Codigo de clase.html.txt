@@ -1,0 +1,43 @@
+ <script>
+varnombres= ["Emma", "Emmax","Emmax1","Emmax2","Emmax3","Emmax4"];
+varapellidos= ["Torres","Torresx1","Torresx2","Torresx3","Torresx4","Torresx5"];
+varletras= ["a","b","c","d","e","f"];
+for (vari=0; i<1000; i++) {?
+lethumano=persona();
+console.log(humano);
+}?
+functionpersona (){?
+letnombreNuevo=nombres[numeroAleatorio(0,nombres.length-1)];
+letapellidoNuevo=apellidos[numeroAleatorio(0,apellidos.length-1)];
+letedadNuevo=numeroAleatorio(1,21);
+if(numeroAleatorio(0,1) ==0){?
+varsexoNuevo="Hombre";
+    }?else{?
+varsexoNuevo="Mujer";
+    }?
+letcodigoNuevo=generarCodigo(30);
+letpersona= {?
+        nombre: nombreNuevo,
+        apellido: apellidoNuevo,
+        edad: edadNuevo,
+        sexo: sexoNuevo,
+        codigo: codigNuevo
+    }?
+returnpersona;
+}?
+functionnumeroAleatorio(min, max) {?
+returnMath.floor(Math.random() * (max-min+1)) +min;
+}?
+functiongenerarCodigo(n){?
+letcadena="";
+for (vari=0; i<n; i++) {?
+cadena=cadena+letras[numeroAleatorio(0,letras.length-1)];
+    }?
+returncadena;
+}?
+varmiSaludo=saludar();
+functionsaludar(){?
+return"Hola";
+}?
+</script>
+<https://teams.microsoft.com/l/message/19:G57Q16Z9nF0QMm_C94si1WhoxX6nVOe0t-v-mIBT18E1@thread.tacv2/1634237662246?tenantId=4f836120-9273-4109-9ae4-ee61f7a20a66&amp;groupId=b607f3d1-0de3-4d27-81fa-2a76405255e2&amp;parentMessageId=1634230918729&amp;teamName=2121IS/ALGORITMOS/Emmanuel Torres&amp;channelName=General&amp;createdTime=1634237662246>
