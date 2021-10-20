@@ -1,0 +1,31 @@
+<script>
+    var palabra = promt("Ingrese un palabra");
+    // -- dado
+    function vereficarPalabra(palabras){
+        let nuevaPalabra = "";
+        let minusculas = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","ñ","o","p","q","r","s","t","u","v","w","x","y","z"]
+        let mayusculas = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","Ñ","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
+        for(let i = 0; i < palabras.length; i++){
+            for(let j = 0; j < minusculas.length; j++){
+                if(palabras[i] == minusculas[j]){
+                    nuevaPalabra += mayusculas[j];
+                }
+                if(palabras[i] == mayusculas[j]){
+                    nuevaPalabra += minusculas[j];
+                }
+            }
+        }
+    }
+</script>
+
+
+
+
+
+
+    
+    
+    
+
+
+   
